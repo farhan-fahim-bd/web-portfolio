@@ -61,6 +61,7 @@ section.dream-area{
 
 section.cxperience{
     padding-bottom: 70px;
+    background: #fff url("image/exp-bg.png") no-repeat left center;
 }
 
 .box{
@@ -78,7 +79,7 @@ section.cxperience{
     background-color: #fff;
     border-left: 7px solid;
     border-image-slice: 1;
-    border-image-source:linear-gradient(180deg, lightsalmon, purple)
+    border-image-source:linear-gradient(180deg, lightsalmon, purple);
 }
 
 .exp-right {
