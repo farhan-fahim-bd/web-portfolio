@@ -1,0 +1,98 @@
+body{
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: slategray;
+}
+
+.name-hlt{
+    color: orange;
+}
+
+.half-witdh{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    overflow: hidden;
+}
+
+.half-witdh img{
+    width: 100%;
+}
+
+section.top-banner{
+    background: #fff url("image/top-banner.png") no-repeat left top;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right, purple , rgb(39, 209, 221));
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-witdh.dream {
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+.half-width.dream-2 {
+    padding-left: 55%;
+}
+
+section.dream-area{
+    background: #fff url("image/dream-bg.png") no-repeat right;
+}
+
+section.cxperience{
+    padding-bottom: 70px;
+}
+
+.box{
+    width: 39%;
+    margin: 0 3%;
+    float: left;
+    border-left: 10px solid lightgreen;
+    padding: 2%;
+    box-shadow: 12px 2px 30px 4px #888856;
+    height: 60%;
+    border-radius: 5px;
+}
+
+.exp-left {
+    background-color: #fff;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image-source:linear-gradient(180deg, lightsalmon, purple)
+}
+
+.exp-right {
+    background-color: #fff;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image-source:linear-gradient(180deg, lightsalmon, blue)
+}
+
+.orange-hinglight{
+    color: orange;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
